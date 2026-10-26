@@ -1,0 +1,50 @@
+# Conda environment for the Python side of this repository.
+# Built from the imports actually used across the notebooks/scripts.
+# Versions are pinned ONLY where a source file records them; everything else is
+# unpinned on purpose (no invented versions; notebooks record mixed environments).
+name: lyve1-thesis
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # Base scientific stack
+  - python=3.11        # notebooks record kernels 3.10.14, 3.10.20, 3.11.0, 3.12.2, 3.12.9 across machines
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - networkx
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyterlab
+  - torch
+  # scRNA-seq stack (recorded versions pinned)
+  - bioconda::scanpy=1.10.4      # recorded in momac/dynamo.ipynb output
+  - bioconda::anndata=0.11.1     # recorded in momac/dynamo.ipynb output
+  - scvi-tools                    # BOTH 1.2.0 and 1.3.0 recorded in different notebooks — deliberately unpinned
+  - bbknn
+  - harmonypy                     # scanpy.external.pp.harmony_integrate
+  - scib
+  - cellrank
+  - moscot                        # Figure_velo_cellrank.ipynb (TemporalProblem)
+  - palantir
+  - dynamo-release
+  - loompy
+  - celltypist
+  - scrublet
+  - gseapy
+  - rpy2                          # %%R magic in the integration benchmark (needs R + Seurat/STACAS installed)
+  - plotnine                      # 07_cell_counts.py
+  - pip:
+      - decoupler-py
+      - pyucell
+      - pyscenic                  # CLI (grn/ctx/aucell) invoked from momac/pyscenic.ipynb
+      # exploratory notebooks only (not part of the thesis):
+      - celloracle                # 03-chapter4-scrna-timecourse/exploratory/celloracle_pax8_exploratory.ipynb
+      # Not installed by default:
+      #   squidpy — unused (no code in this repository).
+      #   liana — used by 04-chapter5-heart-atlas/exploratory/heart_sn_liana.ipynb
+      #     (exploratory, not part of the thesis); install separately if needed.

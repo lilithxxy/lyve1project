@@ -1,0 +1,58 @@
+R environment for the R scripts in this repository.
+renv was never used for this project — no renv.lock exists. No package
+versions were recorded at run time; none are invented below.
+
+R version
+---------
+Thesis Methods state R 4.3.2.
+Evidence from the source tree: OmnipathR logs (Chapter2_Figures/omnipathr-log/
+omnipathr-20260605-1435.log) show the analysis machine ran R 4.4-arm64;
+the installed Seurat/SeuratObject were built under R 4.4.3.
+Treat the exact minor version as uncertain (logs and notebooks record mixed environments).
+
+Seurat version used for demultiplexing
+--------------------------------------
+Recovered read-only on 2026-10-21 from a per-hashtag Seurat object written by
+the demultiplexing script (bioinfo/sc_R/unfiltered/240316-Donor2-MoMac-Day1-MDI.rds,
+2024-06-18): stored obj@version = SeuratObject 5.0.2. SeuratObject 5.0.2
+accompanies Seurat 5.1.0, the version stated in Methods 7.1; consistent with
+the thesis. Caveat: obj@version reflects the last Seurat version to touch the
+object (e.g. via UpdateSeuratObject), not necessarily the one first used.
+
+Packages named in the thesis
+----------------------------
+  DESeq2, Seurat, clusterProfiler, ComplexHeatmap, EnhancedVolcano,
+  MuSiC, BayesPrism
+  (BayesPrism: no corresponding code exists in this repository. MuSiC: used in
+   02-chapter3-bulk-rnaseq/04_music_deconvolution.R.)
+
+Packages actually loaded by the code in this repository
+--------------------------------------------------------
+From the scripts and the R console histories at source:
+  DESeq2, apeglm, pheatmap, ComplexHeatmap, circlize, EnhancedVolcano,
+  clusterProfiler, fgsea, enrichplot, org.Hs.eg.db, DOSE,
+  dendextend, factoextra,
+  ggplot2, dplyr, tidyr, readr, tibble, stringr, reshape2, tidyverse,
+  RColorBrewer, scales,
+  rstatix, ggpubr, patchwork,
+  OmnipathR, decoupleR (R), edgeR, R.utils
+Via rpy2 in 06_integration_benchmark.ipynb (R side): Seurat, dplyr, STACAS.
+
+Additional packages loaded by the scripts added on 2026-10-21
+(demultiplexing, pseudotime, MoMacVerse projection, deconvolution, Chapter 6):
+  Seurat (v5 API: JoinLayers, IntegrateLayers, CCAIntegration), SeuratWrappers,
+  SeuratDisk, SeuratData, scCustomize, Nebulosa,
+  slingshot, monocle3, SingleCellExperiment,
+  MuSiC, zellkonverter, CellDistinguisher,
+  sceasy, reticulate, decontX (loaded but never called),
+  edgeR, cowplot, ggbeeswarm, ggalt, ggforce, viridis, magrittr, patchwork,
+  pheatmap, ComplexHeatmap, colorRamp2, RColorBrewer, scales, dplyr, ggplot2, tidyverse.
+  (MuSiC is therefore both thesis-named and used; BayesPrism remains unused.)
+
+Install with e.g.:
+  BiocManager::install(c("DESeq2","apeglm","ComplexHeatmap","EnhancedVolcano",
+    "clusterProfiler","fgsea","enrichplot","org.Hs.eg.db","DOSE","edgeR",
+    "OmnipathR","decoupleR","BayesPrism","MuSiC"))
+  install.packages(c("pheatmap","circlize","dendextend","factoextra","tidyverse",
+    "reshape2","RColorBrewer","scales","rstatix","ggpubr","patchwork","R.utils",
+    "Seurat","STACAS"))

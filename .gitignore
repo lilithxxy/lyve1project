@@ -1,0 +1,37 @@
+# --- Data files: NOT part of this repository (code only) ---
+*.h5ad
+*.rds
+*.RData
+*.loom
+*.bam
+*.h5
+*.prism
+*.mtx
+*.mtx.gz
+barcodes.tsv*
+features.tsv*
+genes.tsv*
+*.fastq*
+*.bai
+*.bw
+*.csv
+*.tsv
+# Hand-written configuration exception (see 04-chapter5-heart-atlas/README.md)
+!sc_go_curated.csv
+
+# --- Figures: this repository is code only ---
+*.png
+*.pdf
+*.svg
+*.tiff
+*.ai
+
+# --- OS / editor / environment cruft ---
+.DS_Store
+.Rhistory
+.Rproj.user/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.Renviron

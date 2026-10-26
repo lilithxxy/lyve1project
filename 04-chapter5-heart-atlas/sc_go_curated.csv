@@ -1,0 +1,73 @@
+﻿Clusters,ID,Description,p.adjust,RichFactor
+Mac0,GO:0019882,antigen processing and presentation,2.15E-31,0.436507937
+Mac0,GO:0006119,oxidative phosphorylation,3.79E-10,0.263636364
+Mac0,GO:0030100,regulation of endocytosis,0.003766116,0.115107914
+Mac0,GO:0006898,receptor-mediated endocytosis,1.96E-05,0.128514056
+Mac0,GO:0072583,clathrin-dependent endocytosis,1.00E+00,0
+Mac0,GO:0050727,regulation of inflammatory response,1.00E+00,0
+Mac0,GO:0000280,nuclear division,1.00E+00,0
+Mac0,GO:0006260,DNA replication,1.00E+00,0
+Mac0,GO:0098754,detoxification,1.00E+00,0
+Mac0,GO:1990748,cellular detoxification,1.00E+00,0
+Mac0,GO:0032640,tumor necrosis factor production,1.00E+00,0
+Mac0,GO:2001233,regulation of apoptotic signaling pathway,1.00E+00,0
+Mac1,GO:0019882,antigen processing and presentation,1.00E+00,0
+Mac1,GO:0006119,oxidative phosphorylation,1.00E+00,0
+Mac1,GO:0030100,regulation of endocytosis,1.00E+00,0
+Mac1,GO:0006898,receptor-mediated endocytosis,0.000430658,0.136546185
+Mac1,GO:0072583,clathrin-dependent endocytosis,0.00131105,0.25
+Mac1,GO:0050727,regulation of inflammatory response,1.00E+00,0
+Mac1,GO:0000280,nuclear division,1.00E+00,0
+Mac1,GO:0006260,DNA replication,1.00E+00,0
+Mac1,GO:0098754,detoxification,1.00E+00,0
+Mac1,GO:1990748,cellular detoxification,1.00E+00,0
+Mac1,GO:0032640,tumor necrosis factor production,1.00E+00,0
+Mac1,GO:2001233,regulation of apoptotic signaling pathway,1.00E+00,0
+Mac2,GO:0019882,antigen processing and presentation,1.94E-05,0.190909091
+Mac2,GO:0006119,oxidative phosphorylation,1.00E+00,0
+Mac2,GO:0030100,regulation of endocytosis,1.00E+00,0
+Mac2,GO:0006898,receptor-mediated endocytosis,1.00E+00,0
+Mac2,GO:0072583,clathrin-dependent endocytosis,1.00E+00,0
+Mac2,GO:0050727,regulation of inflammatory response,7.52E-09,0.148876404
+Mac2,GO:0000280,nuclear division,1.00E+00,0
+Mac2,GO:0006260,DNA replication,1.00E+00,0
+Mac2,GO:0098754,detoxification,1.00E+00,0
+Mac2,GO:1990748,cellular detoxification,1.00E+00,0
+Mac2,GO:0032640,tumor necrosis factor production,1.00E+00,0
+Mac2,GO:2001233,regulation of apoptotic signaling pathway,1.00E+00,0
+Mac3,GO:0019882,antigen processing and presentation,1.00E+00,0
+Mac3,GO:0006119,oxidative phosphorylation,1.00E+00,0
+Mac3,GO:0030100,regulation of endocytosis,1.00E+00,0
+Mac3,GO:0006898,receptor-mediated endocytosis,1.00E+00,0
+Mac3,GO:0072583,clathrin-dependent endocytosis,1.00E+00,0
+Mac3,GO:0050727,regulation of inflammatory response,1.00E+00,0
+Mac3,GO:0000280,nuclear division,5.25E-44,0.271662763
+Mac3,GO:0006260,DNA replication,2.17E-32,0.291970803
+Mac3,GO:0098754,detoxification,1.00E+00,0
+Mac3,GO:1990748,cellular detoxification,1.00E+00,0
+Mac3,GO:0032640,tumor necrosis factor production,1.00E+00,0
+Mac3,GO:2001233,regulation of apoptotic signaling pathway,1.00E+00,0
+Mac4,GO:0019882,antigen processing and presentation,1.00E+00,01
+Mac4,GO:0006119,oxidative phosphorylation,4.77E-27,0.404761905
+Mac4,GO:0030100,regulation of endocytosis,0.000360945,0.129496403
+Mac4,GO:0006898,receptor-mediated endocytosis,1.00E+00,0
+Mac4,GO:0072583,clathrin-dependent endocytosis,1.00E+00,0
+Mac4,GO:0050727,regulation of inflammatory response,1.00E+00,0
+Mac4,GO:0000280,nuclear division,1.00E+00,0
+Mac4,GO:0006260,DNA replication,1.00E+00,0
+Mac4,GO:0098754,detoxification,2.73E-07,0.207407407
+Mac4,GO:1990748,cellular detoxification,2.52E-09,0.252252252
+Mac4,GO:0032640,tumor necrosis factor production,1.00E+00,0
+Mac4,GO:2001233,regulation of apoptotic signaling pathway,1.00E+00,0
+Mac5,GO:0019882,antigen processing and presentation,1.00E+00,0
+Mac5,GO:0006119,oxidative phosphorylation,1.86E-45,0.531746032
+Mac5,GO:0030100,regulation of endocytosis,0.004776977,0.115107914
+Mac5,GO:0006898,receptor-mediated endocytosis,1.00E+00,0
+Mac5,GO:0072583,clathrin-dependent endocytosis,1.00E+00,0
+Mac5,GO:0050727,regulation of inflammatory response,1.00E+00,0
+Mac5,GO:0000280,nuclear division,1.00E+00,0
+Mac5,GO:0006260,DNA replication,1.00E+00,0
+Mac5,GO:0098754,detoxification,3.21916514368531e-06,0.17037037
+Mac5,GO:1990748,cellular detoxification,1.00E+00,0
+Mac5,GO:0032640,tumor necrosis factor production,0.008389038,0.13125
+Mac5,GO:2001233,regulation of apoptotic signaling pathway,2.02138724041233e-07,0.142076503
